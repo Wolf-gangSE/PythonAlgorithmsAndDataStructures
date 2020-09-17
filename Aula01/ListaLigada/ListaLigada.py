@@ -100,23 +100,3 @@ class ListaLigada:
 
     def __str__(self):
         return self.__repr__()
-
-lista = ListaLigada()
-print(lista.estaVazia())
-lista.remover(22)
-lista.adicionar(7)
-lista.adicionar(80)
-lista.adicionar(56)
-lista.adicionar(32)
-lista.adicionar(17)
-lista.inserir(1, 22)
-lista.inserir(3, 888)
-print(lista.procurar(888))
-print(lista.procurar(535322))
-print(lista.olhar(5))
-print(lista)
-lista.remover(888)
-print(lista.olhar(2))
-print(lista)
-print(lista.estaVazia())
-print(lista.medir())
