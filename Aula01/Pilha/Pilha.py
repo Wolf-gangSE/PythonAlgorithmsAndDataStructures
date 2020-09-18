@@ -3,10 +3,10 @@ class Pilha:
         self.itens = []
 
     def push(self, item):
-        self.itens.append(item)
+        return self.itens.append(item)
 
     def pop(self):
-        self.itens.pop()
+        return self.itens.pop()
 
     def estaVazia(self):
         return self.itens == []
